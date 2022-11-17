@@ -1,0 +1,70 @@
+.container__cursos{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    flex-wrap: wrap;
+    margin: 1em 1em ;
+}
+.video{
+    display: flex;
+    padding: 1em 5em;
+}
+.cursos__lista{
+    display: flex;
+}
+.linguagens{
+    padding-left: 5em;
+}             
+.rodape{
+    background-color: #6b6be2;
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    justify-content: space-around;
+}
+.rodape1{
+    display: flex;
+}
+li{
+    margin-left: 5em;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    margin: 0.5em;
+    font-size: 24px;
+}
+.button{
+     background-color: #2d8b08;
+
+}
+.logo{
+    display: flex;
+    padding-left: 8em;
+    align-items: center;
+}
+.logo-txt{
+    color: #000000;
+    margin-left: 6px;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding-left: 3em;*/

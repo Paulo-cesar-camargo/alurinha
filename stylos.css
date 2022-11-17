@@ -1,0 +1,146 @@
+
+body{
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6b6be2;
+    padding: 1em;
+
+    
+}
+.cabecalhoprincipal-titulo{
+    padding-left: 1em;
+    font-size: 35px;
+    
+    
+}
+.cabecalhoprincipal-nav{
+    padding: 1em;
+}
+
+.cabecalhoprincipal-nav-link{
+    margin-left: 2em; 
+    border-radius: 3px;
+    padding: 5px;
+    width: 30px;
+    background-color: #ffffff;  
+}
+/*cabeçalho*/
+.img_cursos{
+   
+    height: 125px;
+    padding: 1em;   
+}
+.titulo__cursos{
+    font-size: 40px;
+    text-align: center;
+    
+}
+.txt__cursos{
+    font-size: 25px;
+    color: #000000;
+}
+
+.alura__video{
+    background-color: #6b6be2;
+}
+.txt__anuncio{
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 10em;
+    text-align: center;
+    margin-top: 2em;    
+}
+.txt__anuncio1{
+    padding: 0.5em;
+}
+.bt__anuncio{
+    background-color: #f53920ea;
+    display: block;
+    border-radius: 3px;
+    padding: 5px;
+    text-decoration: none;   
+}
+.lista__de-cursos{
+    background-color: #12024b;
+}
+.mapa__txt{
+    font-size: 30px;
+    padding: 1em 2.5em;
+    color: #ffffff;
+}
+.titulo__cursos0{
+    font-size: 25px;
+    color: #29dd4d;
+}
+.titulo__cursos1{
+    font-size: 25px;
+    color: #300cb1;
+}
+.titulo__cursos2{
+    font-size: 25px;
+    color: #aa15e6;
+}
+.titulo__cursos3{
+    font-size: 25px;
+    color: #db0d0dfa;
+}
+.cursos__lista{
+    margin-left: 5em;
+}
+.topicos{
+    display: block;
+    margin: 8px;
+    color: #ffffff;
+}
+
+
+
+@media screen and (max-width:392px){ 
+    body{
+        background-color: #e7e41a;
+    }
+    .cabecalhoprincipal-nav{
+        display: flex;
+        padding-left: 2px;
+        text-align: center;
+    }
+    .cabecalhoprincipal-nav-link{
+        width: 4em;
+    }
+    .cabecalhoprincipal-nav-link1{
+        display: none;
+    }
+    .container__cursos{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: auto;    
+    }
+    .video{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .txt__anuncio{
+        display:none;
+    }
+    .cursos__lista{
+        margin-left: 0;
+    }
+    .linguagens{
+        padding-left: 2em;
+    }    
+    .rodape1{
+        display: none;
+    }
+    .topicos1{
+        color: #000000;
+    }
+}
